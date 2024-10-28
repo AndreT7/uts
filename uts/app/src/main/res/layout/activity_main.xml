@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextNoTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Telepon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioLakiLaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki" />
+
+        <RadioButton
+            android:id="@+id/radioPerempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobi:" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHobi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membaca" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHobi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olahraga" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHobi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travelling" />
+
+    <Button
+        android:id="@+id/buttonKirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hasil akan ditampilkan di sini."
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
